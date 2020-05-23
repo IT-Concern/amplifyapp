@@ -37,10 +37,14 @@ header {
             a {
                 font-size: 19px;
                 line-height: normal;
+                color: ghostwhite;
             }
         }
 
     }
-
-    
+}
+   
+.container-fluid {
+    line-height: 24px;
+    background: gainsboro;
 }
