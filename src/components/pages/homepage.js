@@ -7,19 +7,19 @@ import ShowMoreText from 'react-show-more-text';
 const photos = [
     {
         name: 'photo 1',
-        url: "https://github.com/IT-Concern/amplifyapp/blob/master/public/images/Production_Optimiz.png", 
+        url: "http://mopartners.global/wp-content/uploads/2018/04/petrostreamz-integration-optimization.png", 
     },
     {
         name: 'photo 2',
-        url: "https://imghostr.com/14fe16_jgy", 
+        url: "http://www.marketoracle.co.uk/images/2020/Mar/crude-oil-13-1.png", 
     },
     {
         name: 'photo 3',
-        url: "https://github.com/IT-Concern/amplifyapp/blob/master/public/images/Production_Optimiz.png", 
+        url: "https://tse1.mm.bing.net/th?id=OIP.chSNCgJG-C5d1g-TQf9-uAHaEJ&pid=Api&P=0&w=269&h=152", 
     },
     {
         name: 'photo 4',
-        url: "https://github.com/IT-Concern/amplifyapp/blob/master/public/images/Production_Optimiz.png", 
+        url: "https://cdn.ihs.com/www/blog/figure4.png", 
     }
 ]
 

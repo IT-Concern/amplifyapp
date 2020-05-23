@@ -19,7 +19,7 @@ class Products extends Component {
                         <div className="col">
                             <div>
                                 <h3>OPTIMIZATION AND COLLABORATION TOOL®</h3>
-                                <img width="100%" style={{paddingLeft:10}} src="Images/Production_Optimiz.png" alt="images"/>
+                                <img width="100%" style={{paddingLeft:10}} src="http://mopartners.global/wp-content/uploads/2018/04/petrostreamz-integration-optimization.png" alt="images"/>
                             </div>
                             <br />
                             <ShowMoreText
@@ -76,7 +76,7 @@ class Products extends Component {
                             <div>
                             <h3>STPF TOOL®</h3> 
                                 <br />
-                                <img width="100%" style={{padding:10}} src="Images/stpf.png" alt="images"/>
+                                <img width="100%" style={{padding:10}} src="http://www.marketoracle.co.uk/images/2020/Mar/crude-oil-13-1.png"/>
                             </div>
                             <ShowMoreText
                                 /* Default options */
@@ -116,7 +116,7 @@ class Products extends Component {
                         <br />
                             <div>
                                 <h3>WDR®</h3>
-                                <img width="100%" style={{paddingLeft:10}} src="Images/well_rep.png" alt="images"/>
+                                <img width="100%" style={{paddingLeft:10}} src="https://tse1.mm.bing.net/th?id=OIP.chSNCgJG-C5d1g-TQf9-uAHaEJ&pid=Api&P=0&w=269&h=152" alt="images"/>
                             </div>
                             <br />
                             <ShowMoreText
@@ -146,7 +146,7 @@ class Products extends Component {
                         <br />
                             <div>
                                 <h3>PTA Automation TOOL®</h3>
-                                <img width="100%" style={{paddingLeft:10}} src="Images/pta.png" alt="images"/>
+                                <img width="100%" style={{paddingLeft:10}} src="https://cdn.ihs.com/www/blog/figure4.png" alt="images"/>
                             </div>
                             <ShowMoreText
                                 /* Default options */
