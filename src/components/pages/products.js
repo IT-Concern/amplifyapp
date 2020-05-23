@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import {Collapse} from 'react-bootstrap';
 import ShowMoreText from 'react-show-more-text';
 
 class Products extends Component {
@@ -76,7 +75,7 @@ class Products extends Component {
                             <div>
                             <h3>STPF TOOL®</h3> 
                                 <br />
-                                <img width="100%" style={{padding:10}} src="http://www.marketoracle.co.uk/images/2020/Mar/crude-oil-13-1.png"/>
+                                <img width="100%" style={{padding:10}} src="http://www.marketoracle.co.uk/images/2020/Mar/crude-oil-13-1.png" alt="images"/>
                             </div>
                             <ShowMoreText
                                 /* Default options */
@@ -111,9 +110,10 @@ class Products extends Component {
                                     </ul>
                                 </ShowMoreText>
                             </div>
-                    <div className="row">
-                        <div className="col">
-                        <br />
+                        </div>
+                        <div className="row">
+                           <div className="col">
+                           <br />
                             <div>
                                 <h3>WDR®</h3>
                                 <img width="100%" style={{paddingLeft:10}} src="https://tse1.mm.bing.net/th?id=OIP.chSNCgJG-C5d1g-TQf9-uAHaEJ&pid=Api&P=0&w=269&h=152" alt="images"/>
@@ -140,8 +140,7 @@ class Products extends Component {
                                 A drilling engineer will use the software to record drilling data and generate daily reports whereas a 
                                 manager can use WDR to review and manage data, make an end-of-well recap and compare multiple wells.
                             </ShowMoreText>
-              
-                            </div>
+                        </div>
                         <div className="col">
                         <br />
                             <div>
@@ -203,7 +202,6 @@ class Products extends Component {
                     </div>
                 </div>
             </div>
-        </div>
          );
     }
 }
