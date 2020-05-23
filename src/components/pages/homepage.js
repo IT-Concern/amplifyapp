@@ -7,23 +7,19 @@ import ShowMoreText from 'react-show-more-text';
 const photos = [
     {
         name: 'photo 1',
-        src: "Images/Production_Optimiz.png", 
-        altText:"Photo1"
+        url: "https://github.com/IT-Concern/amplifyapp/blob/master/public/images/Production_Optimiz.png", 
     },
     {
         name: 'photo 2',
-        src: "Images/stpf.png", 
-        altText:"Photo2"
+        url: "https://imghostr.com/14fe16_jgy", 
     },
     {
         name: 'photo 3',
-        src: "Images/well_rep.png", 
-        altText:"Photo3"
+        url: "https://github.com/IT-Concern/amplifyapp/blob/master/public/images/Production_Optimiz.png", 
     },
     {
         name: 'photo 4',
-        src: "Images/pta.png", 
-        altText:"Photo4"
+        url: "https://github.com/IT-Concern/amplifyapp/blob/master/public/images/Production_Optimiz.png", 
     }
 ]
 
@@ -52,7 +48,7 @@ class Homepage extends Component {
                     {photos.map((photo)=> {
                         return (
                             <div>
-                                <img width="80%" style={{paddingLeft:200}} src={photo.src} alt="images"/>
+                                <img width="80%" style={{paddingLeft:200}} src={photo.url} alt="images"/>
                             </div>
                         )
                     }
