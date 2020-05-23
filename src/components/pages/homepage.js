@@ -2,23 +2,28 @@ import React, { Component } from 'react';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ShowMoreText from 'react-show-more-text';
 
 const photos = [
     {
         name: 'photo 1',
-        url: 'https://img.offshore-mag.com/files/base/ebm/os/image/2019/03/content_dam_os_en_articles_2018_09_lundin_achieves_goals_from_barents_sea_well_test_leftcolumn_article_headerimage_the_semisubmersible_leiv_eiriksson_drilled_well_7720_11_5_on_license_pl609_in_the_barents_sea.png?auto=format&w=720'
+        src: "Images/Production_Optimiz.png", 
+        altText:"Photo1"
     },
     {
         name: 'photo 2',
-        url: 'https://info.industrialskyworks.com/hs-fs/hubfs/Stock%20images/close%20up%20of%20industrial%20pipes%20of%20oil%20industry%20production.jpeg?width=600&name=close%20up%20of%20industrial%20pipes%20of%20oil%20industry%20production.jpeg'
+        src: "Images/stpf.png", 
+        altText:"Photo2"
     },
     {
         name: 'photo 3',
-        url: 'https://www.openinventor.com/backoffice/wp-content/uploads/Solutions-Well-Image-Well-planning.png'
+        src: "Images/well_rep.png", 
+        altText:"Photo3"
     },
     {
         name: 'photo 4',
-        url: 'https://frontender.com/blog/wp-content/uploads/2014/09/Petroleum-Engineering-Course-image.png'
+        src: "Images/pta.png", 
+        altText:"Photo4"
     }
 ]
 
@@ -47,7 +52,7 @@ class Homepage extends Component {
                     {photos.map((photo)=> {
                         return (
                             <div>
-                                <img width="80%" style={{paddingLeft:200}} src={photo.url} alt="images"/>
+                                <img width="80%" style={{paddingLeft:200}} src={photo.src} alt="images"/>
                             </div>
                         )
                     }
@@ -55,21 +60,51 @@ class Homepage extends Component {
                 </Slider>
 
                 <br />
-
-                <p>
-                    <b style={{fontSize:30}}><i>eTe</i>Optimiza</b> is a technology company that started in 2020.
-                    We specialize in software applications for oil, gas and renewable 
-                    industries. Our software is customized for your needs. 
+                <div className="container">
+                    <div className="row">
+                        <div className="col">
+                            <h3 style={{fontSize:30}}>OUR MISSION</h3>
+                            <p> 
+                                To create a state-of-the-art Technology Company that will leverage on
+                                more than 3 decades of experience and novel technology to bring
+                                improvement to organization's processes. 
+                            </p>   
+                        </div> 
+                
+                        <div className="col">
+                            <h3 style={{fontSize:30}}>OUR COMPANY</h3>
+                            <ShowMoreText
+                                    /* Default options */
+                                    lines={3}
+                                    more='Show more'
+                                    less='Show less'
+                                    anchorClass=''
+                                    onClick={this.executeOnClick}
+                                    expanded={false}
+                                    width={550}
+                                >
+                                     <p>
+                                        <b style={{fontSize:30}}><i>eTe</i>Optimiza</b> is a technology company that started in 2020.
+                                        We specialize in software applications for oil, gas and renewable 
+                                        industries. Our software applications are customized for your needs. 
+                                    </p>
+                                    <p>    
+                                        Our products include production optimization, production improvement
+                                        collaboration, pressure transient analysis automation, short term production forecasts and 
+                                        well engineering reporting tools.
+                                    </p>
+                                    <p>
+                                        eTeOptimiza builds custom tools that automates the process that petroleum and production
+                                        engineers and managers use to deliver increased production and deliver wells' potential.
+                                    </p>
+                                    <p>
+                                        You can navigate to the products section to learn more about our products.
+                                    </p>    
+                            </ShowMoreText>                 
+                        </div>
+                    </div>
                     
-                    Our products include production optimization, production improvement
-                    collaboration, pressure transient analysis automation, short term production forecasts and 
-                    well engineering reporting tools.
-                    
-                    eTeOptimiza builds custom tools that automates the process that petroleum and production
-                    engineers and managers use to deliver increased production and deliver wells' potential.
-
-                    You can navigate to the products section to learn more about our products.
-                </p>
+                </div>
 
             </div>
          );

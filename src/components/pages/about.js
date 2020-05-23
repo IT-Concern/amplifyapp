@@ -5,8 +5,8 @@ class Aboutus extends Component {
     render() { 
         return ( 
             <div className="container-fluid">
-                <h1>
-                    About Us
+                <h1 style={{marginLeft:500, padding:20}}>
+                    ABOUT US
                 </h1>
 
                 <div className="container">

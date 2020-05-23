@@ -8,6 +8,7 @@ import Footer from "./components/footerComponent/footer";
 import Homepage from "./components/pages/homepage";
 import Products from "./components/pages/products";
 import Aboutus from "./components/pages/about";
+import Readme from "./components/pages/readme";
 
 import "./Assets/css/default.min.css"
 
@@ -22,6 +23,7 @@ class App extends Component {
               <Route exact path='/' component={Homepage} />
               <Route exact path='/Products' component={Products} />
               <Route exact path='/Aboutus' component={Aboutus} />
+              <Route exact path='/Readme' component={Readme} />
               
               <Footer />
 

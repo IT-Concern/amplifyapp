@@ -14,14 +14,14 @@ class Header extends Component {
                         <desc>Example rect02 - rounded rectangles</desc>
                         
                         <rect x="110" y="150" width="200" height="100" rx="50"
-                        fill="none" stroke="green" stroke-width="30"/>
+                        fill="none" stroke="#00ff00" stroke-width="30"/>
 
                         <rect x="250" y="150" width="200" height="100" rx="50"
-                        fill="none" stroke="green" stroke-width="30"/>
+                        fill="none" stroke="#00ff00" stroke-width="30"/>
 
                         <g transform="translate(700 210) rotate(-90)">
                             <rect x="-90" y="-460" width="200" height="75" rx="50"
-                            fill="none" stroke="green" stroke-width="30" />
+                            fill="none" stroke="#00ff00" stroke-width="30" />
                         </g>
                     </svg>
                </div>
